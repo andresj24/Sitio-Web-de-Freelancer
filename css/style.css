@@ -23,6 +23,14 @@ body {
 h1, h2 , h3 {
     margin: 0;
 }
+h2, h3 {
+    text-align: center;
+}
+h3 {
+    color: var(--secundario);
+    font-size: 2.2rem;
+    font-weight: 400;
+}
 
 /*header*/
 .site-header {
@@ -65,6 +73,7 @@ h1, h2 , h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 }
 .hero::after {
     content: '';
@@ -75,13 +84,13 @@ h1, h2 , h3 {
     right: 0;
     bottom: 0;
 }
-.contenedor-hero {
+.contenido-hero {
     color: #ffffff;
     position: relative;
     z-index: 1;
     text-align: center;
 }
-.contenedor-hero i {
+.contenido-hero i {
     color: var(--primario);
     font-size: 5rem;
 }
@@ -101,3 +110,17 @@ h1, h2 , h3 {
 }
 
 /*contenido principal*/
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 10px 21px -9px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 21px -9px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 21px -9px rgba(0,0,0,0.5);
+    margin-bottom: 3rem;
+}
+.servicios {
+    margin: 3rem auto;
+}
