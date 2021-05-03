@@ -34,7 +34,6 @@ h3 {
 p {
     font-size: 1.8rem;
     line-height: 2;
-    text-align: justify;
 }
 
 /*header*/
@@ -170,6 +169,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
 }
 .iconos {
     width: 10rem;
